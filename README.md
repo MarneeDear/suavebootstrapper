@@ -7,6 +7,7 @@ See this [Getting Started with VS Code](https://docs.microsoft.com/en-us/dotnet/
 2. Select all of the file to highlight it
 3. Hit Alt + Enter
 4. You should see a bunch of stuff happening in the TERMINAL tab
+5. Go to http://localhost:8083
 
 # suave.io on Azure
 
