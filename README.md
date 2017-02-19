@@ -3,7 +3,7 @@
 You'll need to install the Ionide tooling for this to work.  
 See this [Getting Started with VS Code](https://docs.microsoft.com/en-us/dotnet/articles/fsharp/tutorials/getting-started/getting-started-vscode)
 
-1. Open site/webserver.fsharp
+1. Open site/webserver.fsx
 2. Select all of the file to highlight it
 3. Hit Alt + Enter
 4. You should see a bunch of stuff happening in the TERMINAL tab
