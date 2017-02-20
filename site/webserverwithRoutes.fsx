@@ -12,6 +12,10 @@ open Suave.Successful
 open Suave.Operators
 open Suave.Filters
 
+let serverConfig = 
+    let port = getBuildParamOrDefault "port" "8083" |> Sockets.Port.Parse
+    { defaultConfig with bindings = [ HttpBinding.create HTTP IPAddress.Loopback port ] }
+
 let app = 
     choose [
         GET >=> choose
@@ -23,8 +27,5 @@ let app =
                 path "/hello" >=> CREATED "Hello POST"
             ]
     ]
-let serverConfig = 
-    let port = getBuildParamOrDefault "port" "8083" |> Sockets.Port.Parse
-    { defaultConfig with bindings = [ HttpBinding.create HTTP IPAddress.Loopback port ] }
 
 startWebServer serverConfig app
