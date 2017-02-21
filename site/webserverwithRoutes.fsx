@@ -20,11 +20,11 @@ let app =
     choose [
         GET >=> choose
             [
-                path "/hello" >=> OK "Hello GET"
+                path "/hello" >=> OK "You are so good looking."
             ]
         POST >=> choose
             [
-                path "/hello" >=> CREATED "Hello POST"
+                path "/hello" >=> CREATED "Don't do that."
             ]
     ]
 
