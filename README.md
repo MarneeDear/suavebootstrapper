@@ -13,7 +13,7 @@ See this [Getting Started with VS Code](https://docs.microsoft.com/en-us/dotnet/
 
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
 
-This repository shows how to use [FAKE](https://github.com/fsharp/FAKE), [Paket](https://github.com/fsprojects/Paket) and [KuduSync](https://github.com/projectkudu/KuduSync) to deploy a [suave.io](http://suave.io/) website to Azure.
+This repository shows how to use [FAKE](https://github.com/fsharp/FAKE), [Paket](https://github.com/fsprojects/Paket) and [KuduSync](https://github.com/projectkudu/KuduSync.NET) to deploy a [suave.io](http://suave.io/) website to Azure.
 
 ## Getting started
 
